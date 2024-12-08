@@ -1,0 +1,88 @@
+::-webkit-scrollbar {
+  width: 12px;
+  height: 100%;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2c3e50;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #27ae60;
+  border-radius: 10px;
+  border: 3px solid #2c3e50;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1e8449;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.card {
+  background-color: #1c1c1c;
+  border: 1px solid #2c3e50;
+  color: white;
+}
+
+.card-header {
+  background-color: #2ecc71;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.highlight {
+  background-color: #27ae60 !important;
+  color: white !important;
+  border: 2px dashed #000000 !important;
+}
+
+th {
+  background-color: #27ae60;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+.form-control,
+.btn {
+  border-radius: 10px;
+}
+
+.form-control {
+  background-color: #2c3e50;
+  color: #ffffff;
+  border: 1px solid #27ae60;
+}
+
+.btnFilter {
+  background-color: #27ae60;
+  color: #ffffff !important;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-color: #18492d;
+}
+
+.btnFilter:hover {
+  background-color: #0b4c26;
+  border-color: #084822;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #0f2d24;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #2ecc71;
+  cursor: pointer;
+}
