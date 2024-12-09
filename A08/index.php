@@ -120,7 +120,7 @@ $arrivalAirportCodeResults = executeQuery($arrivalAirportCodeQuery);
 
     <div class="row my-5">
       <div class="col">
-        <div class="card p-4 rounded-5 shadow">
+        <div class="card p-4 rounded-5 shadow table-responsive">
           <table class="table table-striped">
             <thead>
               <tr>
